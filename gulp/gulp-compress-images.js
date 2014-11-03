@@ -6,5 +6,5 @@ gulp.task('compress-images', function () {
   return gulp.src(config.imagesSrc)
     .pipe(plugins.plumber())
     .pipe(plugins.cache(plugins.imagemin({optimizationLevel: 3, progressive: true, interlaced: true})))
-    .pipe(gulp.dest(config.distPath));
+    .pipe(gulp.dest(config.imagesDist));
 });

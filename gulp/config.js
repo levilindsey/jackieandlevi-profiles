@@ -35,6 +35,7 @@ config.distGlob = config.distPath + '/**';
 
 config.scriptsDist = config.distPath + '/scripts';
 config.stylesDist = config.distPath + '/styles';
+config.imagesDist = config.distPath + '/images';
 
 config.vendorScriptsSrc =
     [config.bowerPath + '/**/*.js', '!' + config.bowerPath + '/**/*.min.js'];
