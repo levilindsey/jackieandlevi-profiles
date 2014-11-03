@@ -2,6 +2,8 @@
 
 #### Profile pages using AngularJS and material design
 
+_**This project is a work in progess**_
+
 _See this running at [jackieandlevi.com/levi](http://jackieandlevi.com/levi)!_
 
 - [Getting Set Up](./docs/getting-set-up.md)
